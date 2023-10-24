@@ -4,7 +4,7 @@ const Test = () => {
     const [btn, setBtn] =React.useState(Boolean)
   return (
     <div className='test'>
-        <div className={` ${btn===true?'animate':'test-container'} `}>
+        <div contentEditable='true' className={` ${btn===true?'animate':'test-container'} `}>
             Matthew
         </div>
         <div className="test-button">
